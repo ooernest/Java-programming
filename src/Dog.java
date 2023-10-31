@@ -1,14 +1,20 @@
 public class Dog {
-    public String name;
+    private String name;
 
-    public int age;
+    private int age;
 
-    public String skinColour;
+    private String skinColour;
 
-    public boolean isOld;
+    private boolean isOld;
 
+    private int size;
 
+    public Dog(String name, int age, String skinColour) {
+        this.name = name;
+        this.age = age;
+        this.skinColour = skinColour;
 
-
-
+    }
 }
+
+
