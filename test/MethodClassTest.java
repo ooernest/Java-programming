@@ -9,7 +9,7 @@ public class MethodClassTest {
 
 
     @Test
-    public void test_mutiplyTwoNumber(){
+    public void test_multiplyTwoNumber(){
         int result = methodClass.multiplyTwoNumbers(4,4);
         Assertions.assertEquals(result, 16);
 
