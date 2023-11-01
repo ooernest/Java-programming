@@ -1,8 +1,10 @@
-public class Methodclass {
+public class MethodClass {
 
-    public int addTwoNumber(int firstNumber, int secondNumber){
-        return firstNumber + secondNumber;
+    public int subtractTwoNumbers(int firstNumber, int secondNumber){
+        return firstNumber - secondNumber;
+
     }
 
-
 }
+
+
