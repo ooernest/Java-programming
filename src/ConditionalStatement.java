@@ -3,19 +3,20 @@ import java.util.Scanner;
 
 public class ConditionalStatement {
     public static void main(String[] args) {
-        Scanner number = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter first number");
-        int i = number.nextInt();
+        System.out.println("Enter grade: ");
+        int gradeResult = input.nextInt();
 
-        System.out.println("Enter Second number");
-        int j = number.nextInt();
-
-        if (i > j){
-            System.out.println(i + "is the largest number");
-
+        if(gradeResult >= 50 && gradeResult <= 59) {
+            System.out.println("Grade is C");
         }
-
+        if (gradeResult >=60 && gradeResult <= 69){
+            System.out.println("Grade is B");
+        }
+        if (gradeResult >= 70 && gradeResult <= 100) {
+            System.out.println("Grade is A");
+        }
 
 
     }
