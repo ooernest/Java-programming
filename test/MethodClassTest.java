@@ -24,5 +24,13 @@ public class MethodClassTest {
 
     }
 
+    @Test
+    public void test_divideTwoNumber(){
+        int result = methodClass.divideTwoNumbers(6,2);
+        Assertions.assertEquals(result, 3);
+
+
+
+    }
 }
 
