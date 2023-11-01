@@ -9,9 +9,9 @@ public class MethodClassTest {
 
 
     @Test
-    public void test_subtractTwoNumber(){
-        int result = methodClass.subtractTwoNumbers(6,4);
-        Assertions.assertEquals(result, 2);
+    public void test_multiplyTwoNumber(){
+        int result = methodClass.multiplyTwoNumbers(4,4);
+        Assertions.assertEquals(result, 16);
 
 
     }

@@ -1,7 +1,7 @@
 public class MethodClass {
 
-    public int subtractTwoNumbers(int firstNumber, int secondNumber){
-        return firstNumber - secondNumber;
+    public int multiplyTwoNumbers(int firstNumber, int secondNumber){
+        return firstNumber * secondNumber;
 
     }
 
