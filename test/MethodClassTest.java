@@ -9,11 +9,20 @@ public class MethodClassTest {
 
 
     @Test
-    public void test_multiplyTwoNumber(){
+    public void test_mutiplyTwoNumber(){
         int result = methodClass.multiplyTwoNumbers(4,4);
         Assertions.assertEquals(result, 16);
 
 
     }
 
+    @Test
+    public void test_subtractTwoNumber(){
+        int result = methodClass.subtractTwoNumbers(5,5);
+        Assertions.assertEquals(result, 0);
+
+
+    }
+
 }
+
